@@ -7,8 +7,35 @@
     <title>Figuras geométricas</title>
 </head>
 <body>
-    <h1>Figuras geométricas</h1>
-
-    <script src="./figuras-funciones.js"></script>
+    <header>
+        <h1>Figuras geométricas</h1>
+    </header>
+    <section>
+        <h2>Cálcula el área y perímetro de un cuadrado</h2>
+        <form action="">
+            <label>
+                Escribe cuánto mide cada lado de tu ciadrado: 
+            </label>
+            <input type="number" id="lado" /><br/>
+            <button type="button" onclick="calculoP()">
+                Calcular el perímetro
+            </button>
+            <button type="button" onclick="calculoA()">
+                Calcular el área
+            </button> <br/>
+            <label>
+                Escribe los lados de tu triángulo: <br/>
+            
+                cateto 1: <input type="number" id="cat1" /><br/>
+                cateto 2: <input type="number" id="cat2" /><br/>
+                base: <input type="number" id="base" /><br/>
+                <button type="button" onclick="calculoH()">
+            </label>
+                Calcular la altura
+            </button>
+        </form>
+    </section>
+   
+    <script src="./figuras-html.js"></script>
 </body>
 </html>

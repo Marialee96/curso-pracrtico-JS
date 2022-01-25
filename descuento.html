@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos | Ale</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Descuentos</h1>
+        </div>
+    </header>
+    <section>
+        <form>
+            <label for="precio">Precio inicial del producto:</label> 
+            <input type="number" name="precio" id="precio"> <br>
+            <label for="descuento"> Descuento del producto (en porcertaje): </label> 
+            <input type="number" name="descuento" id="descuento">% <br>
+            <label for="cupones">Ingresa el cupón de descuento</label>
+            <input type="text" id="cupones">% <br>
+            <button type="button" onclick="calculo()">
+                Calcular el precio final
+            </button>
+            <button type="reset">
+                Limpiar
+            </button>
+            <p id="ResultP"></p>
+        </form>
+    </section>
+    <script src="./descuento.js"></script>
+</body>
+</html>
+
